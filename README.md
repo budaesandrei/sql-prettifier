@@ -15,7 +15,7 @@ pip install sql-prettifier
 To use `sql-prettifier`, first import the `SqlFormatter` class from the `sql_prettifier` module:
 
 ```python
-from sql_prettifier.formatter import SqlFormatter
+from sql_prettifier.core import SqlFormatter
 ```
 
 Then, create an instance of the `SqlFormatter` class with the desired configuration options:
@@ -59,11 +59,8 @@ print(formatted_sql)
 
 ## Contributing
 
-Contributions to `sql-prettifier` are welcome! If you find a bug or have a suggestion for improvement, please open an issue on the [GitHub repository](https://github.com/your-username/sql-prettifier).
+Contributions to `sql-prettifier` are welcome! If you find a bug or have a suggestion for improvement, please open an issue on the [GitHub repository](https://github.com/budaesandrei/sql-prettifier).
 
 ## License
 
 `sql-prettifier` is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-```
-
-Please note that the placeholders like `your-username` in the URLs should be replaced with the actual username or organization name on GitHub.

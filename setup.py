@@ -11,7 +11,7 @@ setup(
     description='A SQL prettifier / formatter library',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='',
+    url='https://github.com/budaesandrei/sql-prettifier',
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
     classifiers=[
